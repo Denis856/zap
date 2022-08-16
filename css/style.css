@@ -1,0 +1,318 @@
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+*,*:before,*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body {
+   width: 100%;
+   height: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h5{font-size: inherit;font-weight: 400;}
+
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Jost:wght@400;500;600;700;800&display=swap');
+
+body {
+   font-family: 'Jacques Francois', serif;
+   font-style: normal;
+   font-weight: 400;
+   color: #2A2A30;
+}
+
+.container {
+   padding: 0 244px;
+}
+
+a {
+   text-decoration: none;
+}
+
+.title {
+   font-family: 'Jost', sans-serif;
+   font-size: 64px;
+   font-weight: 600;
+   line-height: 92px;
+   letter-spacing: 0.05em;
+   margin: 0 0 90px 0;
+}
+
+.center {
+   text-align: center;
+}
+
+.center1 {
+   display: flex;
+   align-items: center;
+}
+
+.center2 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.center3 {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.column {
+   display: flex;
+   flex-direction: column;
+}
+
+.page1 {
+   background: url('../img/page1.png') no-repeat;
+   background-size: cover;
+}
+
+/* head start */
+
+.header {
+   padding: 116px 0 0 0;
+}
+.ul>*:not(:last-child) {
+   margin-right: 40px;
+}
+.head_link {
+   font-family: 'Jacques Francois', serif;
+   font-size: 32px;
+   line-height: 42px;
+   font-weight: 400;
+   color: #2A2A30;
+   padding: 10px;
+   border-radius: 50px;
+   transition: all .2s ease;
+}
+
+.head_link:hover {
+   color:#97979e;
+   background: #3e3e44;
+}
+
+.head_link:active {
+   color: #fff;
+}
+
+/* head end */
+
+
+/* page start */
+
+.p1 {
+   padding: 0 0 50px 0;
+}
+.title1 {
+   font-family: 'Jost', sans-serif;
+   font-size: 64px;
+   line-height: 92px;
+   letter-spacing: 0.05em;
+   color: #2A2A30;
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   margin: 176px 0 50px 0;
+}
+.text1 {
+   font-size: 40px;
+   line-height: 68px;
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   margin: 0 0 150px 0;
+}
+.img1 {
+   transform: translateX(50px);
+}
+
+/* page end */
+
+/* page2 start */
+
+.page {
+   padding: 176px 0 87px 0;
+}
+.page2 {
+   background: #F4F6FC;
+}
+.blocks {
+   flex-wrap: wrap;
+}
+.block:hover .text2 {
+   opacity: 1;
+}
+.bl:hover .block:after {
+   opacity: .2;
+}
+.block {
+   position: relative;
+}
+.block:after {
+   content: '';
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   background: rgb(65, 62, 62);
+   opacity: 0;
+   border-radius: 10px;
+   transition: all .2s ease;
+}
+.img_block {
+   transition: all .2s ease;
+}
+.block:hover .img_block {
+   transform: scale(1.05);
+}
+.text2 {
+   font-size: 24px;
+   line-height: 41px;
+   opacity: 0;
+   transition: all .2s ease;
+   margin: 20px 0 0 0;
+}
+.img {
+   transform: translateX(-50px);
+}
+
+/* page2 end */
+
+/* page3 start */
+
+.page3 {
+   background: #D9DCE1;
+}
+.img4 {
+   height: 80px;
+}
+.text3 {
+   font-family: 'Jost', sans-serif;
+   font-size: 36px;
+   font-weight: 600;
+   line-height: 52px;
+   letter-spacing: 0.05em;
+   color:#2A2A30;
+   margin: 0 0 0 40px;
+}
+.cont1>*:not(:last-child) {
+   margin: 0 0 80px 0;
+}
+.cont2>*:not(:last-child) {
+   margin: 0 0 80px 0;
+}
+.arr1 {
+   margin: 30px 0 0 0;
+}
+.arr3 {
+   margin: 80px 0 0 0;
+}
+
+/* page3 end */
+
+/* page4 start */
+
+.page4 {
+   background: #F4EFEF;
+}
+.form>*:not(:last-child) {
+   margin: 0 0 80px 0;
+}
+.group {
+   width: 600px;
+   position: relative;
+}
+.input {
+   width: 100%;
+   outline: 0;
+   border: 0;
+   border-bottom: 1.5px solid #2A2A30;
+   background-color: transparent;
+   font-size: 30px;
+   font-family: inherit;
+}
+.label {
+   font-family: 'Jost', sans-serif;
+   font-size: 30px;
+   font-weight: 600;
+   line-height: 52px;
+   letter-spacing: 0.05em;
+   position: absolute;
+   top: -10px;
+   left: 0;
+   pointer-events: none;
+   transition: all .2s ease;
+}
+.input:focus + label {
+   transform: translateY(-25px);
+   font-size: 18px;
+}
+.input:not(:placeholder-shown) + .label {
+   transform: translateY(-25px);
+   font-size: 18px;
+}
+.textarea {
+   resize: vertical;
+   min-height: 200px;
+   width: 100%;
+   outline: 0;
+   border: 0;
+   border-bottom: 1.5px solid #2A2A30;
+   background-color: transparent;
+   font-size: 30px;
+   font-family: inherit;
+}
+.textarea:focus + label {
+   transform: translateY(-25px);
+   font-size: 18px;
+}
+.textarea:not(:placeholder-shown) + .label {
+   transform: translateY(-25px);
+   font-size: 18px;
+}
+.btn {
+   font-family: 'Jost', sans-serif;
+   font-size: 30px;
+   font-weight: 600;
+   line-height: 52px;
+   letter-spacing: 0.05em;
+   padding: 15px 25px;
+   border-radius: 20px;
+   background: #A7A1A1;
+   color: #fff;
+   transition: all .2s ease;
+}
+.btn:hover {
+   background: #7b7777;
+}
+.btn:active {
+   background: rgb(50, 172, 39);
+}
+
+/* page4 end */
+
+/* 
+font-family: 'Jost', sans-serif; */
