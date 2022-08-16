@@ -79,7 +79,7 @@
                   <div class="block">
                      <img src="img/bl2.png" alt="" class="img_block">
                      <div class="text2 center">
-                        Короткий 
+                        Быстрый 
                         <br>срок доставки заказов
                      </div>
                   </div>
