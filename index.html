@@ -59,9 +59,9 @@
          </a>
       </div>
    </div>
-   <div id="service" class="page2 page">
+   <div id="service" class="page2 p2">
       <div class="container">
-         <div class="p2">
+         <div class="p3">
             <div class="title2 title center2">
                Сервис
             </div>
@@ -105,7 +105,7 @@
          </a>
       </div>
    </div>
-   <div id="contact" class="page3 page">
+   <div id="contact" class="page3 p2">
       <div class="container">
          <div class="title2 title center2">
             Контакты
@@ -159,7 +159,7 @@
          </a>
       </div>
    </div>
-   <div id="send" class="page4 page">
+   <div id="send" class="page4 p2">
       <div class="container">
          <div class="title2 title center2">
             Запрос
