@@ -29,21 +29,16 @@
    .title1 {
       font-size: 55px;
       line-height: 85px;
-      margin: 176px 0 40px 0;
    }
    .text1 {
       font-size: 31px;
       line-height: 60px;
-      margin: 0 0 100px 0;
    }
    .img0 {
       height: 60px;
    }
    .p1 {
       padding: 0 0 40px 0;
-   }
-   .page {
-      padding: 146px 0 70px 0;
    }
    .title {
       font-size: 55px;
@@ -107,21 +102,16 @@
    .title1 {
       font-size: 45px;
       line-height: 75px;
-      margin: 146px 0 35px 0;
    }
    .text1 {
       font-size: 24px;
       line-height: 50px;
-      margin: 0 0 100px 0;
    }
    .img0 {
       height: 50px;
    }
    .p1 {
       padding: 0 0 40px 0;
-   }
-   .page {
-      padding: 126px 0 60px 0;
    }
    .title {
       font-size: 50px;
@@ -214,21 +204,16 @@
    .title1 {
       font-size: 37px;
       line-height: 70px;
-      margin: 126px 0 20px 0;
    }
    .text1 {
       font-size: 19px;
       line-height: 45px;
-      margin: 0 0 90px 0;
    }
    .img0 {
       height: 40px;
    }
    .p1 {
       padding: 0 0 30px 0;
-   }
-   .page {
-      padding: 106px 0 50px 0;
    }
    .title {
       font-size: 40px;
@@ -294,12 +279,10 @@
    .title1 {
       font-size: 33px;
       line-height: 60px;
-      margin: 106px 0 5px 0;
    }
    .text1 {
       font-size: 18px;
       line-height: 40px;
-      margin: 0 0 80px 0;
    }
    .img0 {
       height: 30px;
@@ -312,9 +295,6 @@
    }
    .img {
       transform: translateX(-10px);
-   }
-   .page {
-      padding: 100px 0 40px 0;
    }
    .title {
       font-size: 30px;
@@ -359,9 +339,6 @@
    }
    .logo_img {
       height: 27px;
-   }
-   .page {
-      padding: 80px 0 40px 0;
    }
    .title {
       font-size: 27px;
@@ -438,21 +415,16 @@
    .title1 {
       font-size: 29px;
       line-height: 50px;
-      margin: 85px 0 5px 0;
    }
    .text1 {
       font-size: 16px;
       line-height: 30px;
-      margin: 0 0 70px 0;
    }
    .img0 {
       height: 24px;
    }
    .p1 {
       padding: 0 0 18px 0;
-   }
-   .page {
-      padding: 60px 0 35px 0;
    }
    .title {
       font-size: 25px;
@@ -545,21 +517,16 @@
    .title1 {
       font-size: 25px;
       line-height: 40px;
-      margin: 80px 0 5px 0;
    }
    .text1 {
       font-size: 15px;
       line-height: 20px;
-      margin: 0 0 60px 0;
    }
    .img0 {
       height: 20px;
    }
    .p1 {
       padding: 0 0 18px 0;
-   }
-   .page {
-      padding: 60px 0 30px 0;
    }
    .title {
       font-size: 21px;
@@ -639,7 +606,6 @@
    .title1 {
       font-size: 20px;
       line-height: 30px;
-      margin: 60px 0 5px 0;
    }
    .text1 {
       font-size: 14px;
@@ -649,9 +615,6 @@
    }
    .p1 {
       padding: 0 0 16px 0;
-   }
-   .page {
-      padding: 40px 0 30px 0;
    }
    .title {
       font-size: 17px;
@@ -681,8 +644,6 @@
    }
    .arr1 {
       margin: 1px 0 0 0;
-   }
-   .input {
    }
    .label {
       font-size: 13px;
