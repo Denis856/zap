@@ -90,7 +90,7 @@ a {
 
 .page1 {
    background: url('../img/page1.png') no-repeat;
-   background-size: cover;
+   background-size: contain;
 }
 
 /* head start */
