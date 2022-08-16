@@ -150,7 +150,7 @@
             </div>
          </div>
       </div>
-      <div class="arr3 center3">
+      <div class="arr41 center3">
          <a href="#send" class="arr_down">
             <img class="img1 img0" src="img/arr_down.png" alt="">
          </a>
