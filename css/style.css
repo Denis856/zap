@@ -137,6 +137,7 @@ a {
    color: #2A2A30;
    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
    margin: 176px 0 50px 0;
+   padding: 80px 0 0 0;
 }
 .text1 {
    font-size: 40px;
@@ -224,11 +225,8 @@ a {
 .arr1 {
    margin: 30px 0 0 0;
 }
-.arr3 {
-   margin: 80px 0 0 0;
-}
-.arr41 {
-   margin: 80px 0 0 0;
+.arr {
+   padding: 0 0 20px 0;
 }
 
 /* page3 end */
