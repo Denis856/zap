@@ -59,9 +59,9 @@
          </a>
       </div>
    </div>
-   <div id="service" class="page2 p2">
+   <div id="service" class="page2">
       <div class="container">
-         <div class="p3">
+         <div class="p3 p2">
             <div class="title2 title center2">
                Сервис
             </div>
@@ -96,7 +96,7 @@
             </div>
          </div>
       </div>
-      <div class="arr1 center3">
+      <div class="arr1 arr center3">
          <a href="#contact" class="arr_down">
             <img class="img1 img0" src="img/arr_down.png" alt="">
          </a>
@@ -105,52 +105,54 @@
          </a>
       </div>
    </div>
-   <div id="contact" class="page3 p2">
+   <div id="contact" class="page3">
       <div class="container">
-         <div class="title2 title center2">
-            Контакты
-         </div>
-         <div class="page2_cont center3">
-            <div class="cont1">
-               <a href="tel:88888888888" class="con center1">
-                  <div class="img3">
-                     <img src="img/cont1.png" alt="" class="cont_img img4">
-                  </div>
-                  <div class="text3">
-                     8-888-888-88-88
-                  </div>
-               </a>
-               <a href="mailto:mail@.ru" class="con center1">
-                  <div class="img3">
-                     <img src="img/cont2.png" alt="" class="cont_img img4">
-                  </div>
-                  <div class="text3">
-                     mail@.ru
-                  </div>
-               </a>
-               <a href="" class="con center1">
-                  <div class="img3">
-                     <img src="img/cont3.png" alt="" class="cont_img img4">
-                  </div>
-                  <div class="text3">
-                     London
-                  </div>
-               </a>
+         <div class="p2">
+            <div class="title2 title center2">
+               Контакты
             </div>
-            <div class="cont2 column">
-               <a href="#" class="soc">
-                  <img src="img/soc1.png" alt="" class="soc_img img4">
-               </a>
-               <a href="#" class="soc">
-                  <img src="img/soc2.png" alt="" class="soc_img img4">
-               </a>
-               <a href="#" class="soc">
-                  <img src="img/soc3.png" alt="" class="soc_img img4">
-               </a>
+            <div class="page2_cont center3">
+               <div class="cont1">
+                  <a href="tel:88888888888" class="con center1">
+                     <div class="img3">
+                        <img src="img/cont1.png" alt="" class="cont_img img4">
+                     </div>
+                     <div class="text3">
+                        8-888-888-88-88
+                     </div>
+                  </a>
+                  <a href="mailto:mail@.ru" class="con center1">
+                     <div class="img3">
+                        <img src="img/cont2.png" alt="" class="cont_img img4">
+                     </div>
+                     <div class="text3">
+                        mail@.ru
+                     </div>
+                  </a>
+                  <a href="" class="con center1">
+                     <div class="img3">
+                        <img src="img/cont3.png" alt="" class="cont_img img4">
+                     </div>
+                     <div class="text3">
+                        London
+                     </div>
+                  </a>
+               </div>
+               <div class="cont2 column">
+                  <a href="#" class="soc">
+                     <img src="img/soc1.png" alt="" class="soc_img img4">
+                  </a>
+                  <a href="#" class="soc">
+                     <img src="img/soc2.png" alt="" class="soc_img img4">
+                  </a>
+                  <a href="#" class="soc">
+                     <img src="img/soc3.png" alt="" class="soc_img img4">
+                  </a>
+               </div>
             </div>
          </div>
       </div>
-      <div class="arr41 center3">
+      <div class="arr center3">
          <a href="#send" class="arr_down">
             <img class="img1 img0" src="img/arr_down.png" alt="">
          </a>
@@ -159,36 +161,38 @@
          </a>
       </div>
    </div>
-   <div id="send" class="page4 p2">
+   <div id="send" class="page4">
       <div class="container">
-         <div class="title2 title center2">
-            Запрос
+         <div class="p2">
+            <div class="title2 title center2">
+               Запрос
+            </div>
+            <form action="#" class="form center2 column">
+               <div class="group">
+                  <input type="text" class="input" placeholder=" ">
+                  <label class="label">
+                     Vin
+                  </label>
+               </div>
+               <div class="group">
+                  <input type="text" class="input" placeholder=" ">
+                  <label class="label">
+                     Номер телефона
+                  </label>
+               </div>
+               <div class="group">
+                  <textarea name="" class="textarea" placeholder=" "></textarea>
+                  <label for="" class="label">
+                     Описание
+                  </label>
+               </div>
+               <button class="btn" type="submit">
+                  Отправить
+               </button>
+            </form>
          </div>
-         <form action="#" class="form center2 column">
-            <div class="group">
-               <input type="text" class="input" placeholder=" ">
-               <label class="label">
-                  Vin
-               </label>
-            </div>
-            <div class="group">
-               <input type="text" class="input" placeholder=" ">
-               <label class="label">
-                  Номер телефона
-               </label>
-            </div>
-            <div class="group">
-               <textarea name="" class="textarea" placeholder=" "></textarea>
-               <label for="" class="label">
-                  Описание
-               </label>
-            </div>
-            <button class="btn" type="submit">
-               Отправить
-            </button>
-         </form>
       </div>
-      <a href="#contact" class="arr_down">
+      <a href="#contact" class="arr_down arr">
          <img class="img1 img0" src="img/arr-up.png" alt="">
       </a>
    </div>
