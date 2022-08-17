@@ -29,11 +29,6 @@
                   <nav class="nav">
                      <ul class="ul center1">
                         <li class="li">
-                           <a href="#about" class="head_link">
-                              О нас
-                           </a>
-                        </li>
-                        <li class="li">
                            <a href="#service" class="head_link">
                               Сервис
                            </a>
