@@ -1,0 +1,1 @@
+document.querySelector(".btn").addEventListener( "click" , () => alert(`Вам не ответят`));
