@@ -7,6 +7,16 @@
    <title>Self 3</title>
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/media.css">
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+   <script type="text/javascript">
+      $(function(){
+      $('a[href^="#"]').click(function(){
+      var target = $(this).attr('href');
+      $('html, body').animate({scrollTop: $(target).offset().top}, 800);//800 - длительность скроллинга в мс
+      return false;
+      });
+      });
+      </script>
 </head>
 <body>
    <div class="page1">
