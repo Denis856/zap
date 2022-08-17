@@ -307,11 +307,8 @@
    .img4 {
       height: 50px;
    }
-   .arr3 {
-      margin: 60px 0 0 0;
-   }
    .header {
-      padding: 60px 0 0 0;
+      padding: 40px 0 0 0;
    }
 }
 
@@ -355,9 +352,6 @@
    }
    .arr1 {
       margin: 20px 0 0 0;
-   }
-   .arr3 {
-      margin: 50px 0 0 0;
    }
    .input {
       font-size: 18px;
@@ -437,9 +431,6 @@
    }
    .arr1 {
       margin: 10px 0 0 0;
-   }
-   .arr3 {
-      margin: 40px 0 0 0;
    }
    .input {
       font-size: 16px;
