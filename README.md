@@ -196,5 +196,6 @@
          <img class="img1 img0" src="img/arr-up.png" alt="">
       </a>
    </div>
+      <script src="js/main.js"></script>c
 </body>
 </html>
