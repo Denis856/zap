@@ -191,7 +191,7 @@
                      Описание
                   </label>
                </div>
-               <button class="btn" type="submit">
+               <button class="btn" type="reset">
                   Отправить
                </button>
             </form>
