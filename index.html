@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="fonts/style.css">
+   <title>self 17</title>
+</head>
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="container">
+            <nav class="header__body">
+               <a href="#" class="header__logo"><img src="img/logo.png" alt="logo"></a>
+               <div class="header__part2">
+                  <ul class="header__list">
+                     <li class="header__item"><a href="#home" class="header__link">Home</a></li>
+                     <li class="header__item"><a href="#order" class="header__link">Order</a></li>
+                     <li class="header__item"><a href="#work" class="header__link">Company</a></li>
+                     <li class="header__item"><a href="#fag" class="header__link">FAQ</a></li>
+                     <li class="header__item"><a href="#contact" class="header__link">Contact</a></li>
+                  </ul>
+                  <a href="#basket" class="header__basket">
+                     <i class="header__icon icon-basket"></i>
+                     <span id="count">0</span>
+                  </a>
+                  <div class="header__burger"><span></span></div>
+               </div>
+            </nav>
+         </div>
+      </header>
+      <main class="page">
+         <div id="home" class="home">
+            <div class="container">
+               <div class="home__body">
+                  <div class="home__block_text">
+                     <h1 class="home__title">
+                        Beautiful food & takeaway, <span>delivered</span> to your door.
+                     </h1>
+                     <p class="home__text text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500.
+                     </p>
+                     <button class="home__btn btn">Place an Order</button>
+                     <img src="img/home_img1.png" alt="icon" class="home__img1">
+                     <p class="home__text2"><span>4.8 out of 5</span> based on 2000+ reviews</p>
+                  </div>
+                  <img src="img/home.jpg" alt="icon" class="home__img">
+               </div>
+            </div>
+         </div>
+         <div class="block product">
+            <div class="container">
+               <div class="block__body">
+                  <div class="block__text_all">
+                     <p class="block__title title">
+                        The home of fresh products
+                     </p>
+                     <p class="block__text text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500.
+                     </p>
+                     <button class="block__bn btn">Learn about us</button>
+                  </div>
+                  <img src="img/product.jpg" alt="icon" class="block__img">
+               </div>
+            </div>
+         </div>
+         <div id="work" class="works">
+            <div class="container">
+               <h2 class="works__title title">How it works.</h2>
+               <div class="works__items">
+                  <div class="works__item item1">
+                     <img src="img/img21.jpg" alt="icon" class="item1__img">
+                     <p class="item1__title">Adapt your menu items</p>
+                     <p class="item1__text text">
+                        Easily adapt your menu using the webflow CMS and allow customers to browse your items.
+                     </p>
+                  </div>
+                  <div class="works__item item1">
+                     <img src="img/img22.jpg" alt="icon" class="item1__img">
+                     <p class="item1__title">Accept online orders & takeout</p>
+                     <p class="item1__text text">
+                        Let your customers order and pay via the powerful ecommerce system, or simple let them call your store.
+                     </p>
+                  </div>
+                  <div class="works__item item1">
+                     <img src="img/img23.jpg" alt="icon" class="item1__img">
+                     <p class="item1__title">Manage delivery or takeout</p>
+                     <p class="item1__text text">
+                        Manage your own logistics and take orders simply through the ecommerce system.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         
+         <div id="order" class="brows">
+            <div class="container">
+               <p class="brows__title title">Browse our menu</p>
+               <p class="brows__text">
+                  Use our menu to place an order online, or <a href="#">phone</a> 
+                  our store to place a pickup order. Fast and fresh food.
+               </p>
+               <div class="brows__block_up">
+                  <button class="brows__btn brows__btn1" data-name="burger">Burgers</button>
+                  <button class="brows__btn brows__btn1" data-name="sides">Sides</button>
+                  <button class="brows__btn brows__btn1" data-name="drinks">Drinks</button>
+                  <input class="brows__btn input" type="text" id="brows01" data-name="all">
+               </div>
+               <div id="brows__items">
+               </div>
+               <label for="brows01" class="brows__label brows__btn1 active">See Full Menu</label>
+            </div>
+         </div>
+
+         
+         <div id="basket" class="basket">
+            <div class="container">
+               <p class="basket__title title">Basket</p>
+               <div id="my_item"></div>
+               <div class="foot">
+                  <h3 class="foot__title">Total</h3>
+                  <div id="total">$ 0.00</div>
+               </div>
+            </div>
+         </div>
+
+         <div class="block2 order">
+            <div class="container">
+               <div class="block2__body">
+                  <img src="img/order.jpg" alt="icon" class="block2__img">
+                  <div class="block2__text_all">
+                     <p class="block2__title title">Order online with our simple checkout.</p>
+                     <p class="block2__text text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500.
+                     </p>
+                     <button class="block2__btn btn">See our FAQ</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="block2 store">
+            <div class="container">
+               <div class="block2__body">
+                  <div class="block2__text_all">
+                     <p class="block2__title title">Call our store and takeaway when it suits you best.</p>
+                     <p class="block2__text text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500.
+                     </p>
+                     <a href="tel:+612332333" class="block2__btn btn">Ph. +61 233 2333</a>
+                  </div>
+                  <img src="img/store.jpg" alt="icon" class="block2__img">
+               </div>
+            </div>
+         </div>
+         <div id="fag" class="support">
+               <div class="support__items">
+                  <div class="support__item support__item1"></div>
+                  <div class="support__item support__item2">
+                     <div class="support__block">
+                        <p class="support__title">
+                           <span>Support</span> good food and local business.
+                        </p>
+                        <button class="support__btn">Order Now</button>
+                     </div>
+                  </div>
+               </div>
+         </div>
+      </main>
+      <footer id="contact" class="footer">
+         <div class="container">
+            <div class="footer__body">
+               <div class="footer__main">
+                  <a href="#" class="footer__logo"><img src="img/logo.png" alt="logo"></a>
+                  <p class="footer__text1">Takeaway & Delivery template</p>
+                  <p class="footer__text2">for small - medium businesses.</p>
+               </div>
+               <div class="footer__columns">
+                  <div class="footer__column">
+                     <p class="footer__title">company</p>
+                     <a href="#" class="footer__link">Home</a>
+                     <a href="#" class="footer__link">Order</a>
+                     <a href="#" class="footer__link">FAQ</a>
+                     <a href="#" class="footer__link">Contact</a>
+                  </div>
+                  <div class="footer__column">
+                     <p class="footer__title">TEMPLATE</p>
+                     <a href="#" class="footer__link">Style Guide</a>
+                     <a href="#" class="footer__link">Changelog</a>
+                     <a href="#" class="footer__link">Licence</a>
+                     <a href="#" class="footer__link">Webflow University</a>
+                  </div>
+                  <div class="footer__column">
+                     <p class="footer__title">FLOWBASE</p>
+                     <a href="#" class="footer__link">More Cloneables</a>
+                  </div>
+               </div>
+            </div>
+            <div class="footer__last">
+               <p class="footer__text3">Built by <span>Flowbase</span> · Powered by <span> Webflow</span></p>
+               <div class="footer__social">
+                  <a href="#" class="footer__soc"><i class="footer__icon icon-insta"></i></a>
+                  <a href="#" class="footer__soc"><i class="footer__icon icon-twitter"></i></a>
+                  <a href="#" class="footer__soc"><i class="footer__icon icon-youtube"></i></a>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </div>
+   <script src="js/script.js"></script>
+   <script src="js/jquery-1.9.1.min.js"></script>
+   <script src="js/cards.js"></script>
+   <script src="js/show.js"></script>
+</body>
+</html>
