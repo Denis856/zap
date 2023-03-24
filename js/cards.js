@@ -1,7 +1,7 @@
 const product = [
    {
       id: 0,
-      image: '../img/img31.jpg',
+      image: 'img/img31.jpg',
       title: 'Burger Dreams',
       price: 9,
       text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
@@ -10,7 +10,7 @@ const product = [
    },
    {
       id: 1,
-      image: '../img/img32.jpg',
+      image: 'img/img32.jpg',
       title: 'Burger Waldo',
       price: 10,
       text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
@@ -19,7 +19,7 @@ const product = [
    },
    {
       id: 2,
-      image: '../img/img33.jpg',
+      image: 'img/img33.jpg',
       title: 'Burger Cali',
       price: 8,
       text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
@@ -28,7 +28,7 @@ const product = [
    },
    {
       id: 3,
-      image: '../img/img34.jpg',
+      image: 'img/img34.jpg',
       title: 'Burger Bacon Buddy',
       price: 9,
       text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
@@ -37,7 +37,7 @@ const product = [
    },
    {
       id: 4,
-      image: '../img/img35.jpg',
+      image: 'img/img35.jpg',
       title: 'Burger Spicy',
       price: 9,
       text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
@@ -46,7 +46,7 @@ const product = [
    },
    {
       id: 5,
-      image: '../img/img36.jpg',
+      image: 'img/img36.jpg',
       title: 'Burger Classic',
       price: 8,
       text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
@@ -55,7 +55,7 @@ const product = [
    },
    {
       id: 6,
-      image: '../img/img31.jpg',
+      image: 'img/img31.jpg',
       title: 'Burger Classic',
       price: 8,
       text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
@@ -64,7 +64,7 @@ const product = [
    },
    {
       id: 7,
-      image: '../img/img32.jpg',
+      image: 'img/img32.jpg',
       title: 'Burger Classic',
       price: 8,
       text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
@@ -81,7 +81,7 @@ document.getElementById('brows__items').innerHTML = categories.map((item)=>{
    return (
       `
       <div class="brows__item item2" data-name='${data}'>
-         <img alt="icon" class="item2__img" src='${image}'>
+         <img alt="icon" class="item2__img" src=${image}>
          <div class="item2__block">
             <div class="item2__up">
                <p class="item2__title">${title}</p>
