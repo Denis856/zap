@@ -1,0 +1,36 @@
+@font-face {
+   font-family: 'Inter Reg', sans-serif;
+   src: url('/font/Inter-Regular.ttf');
+}
+@font-face {
+   font-family: 'Inter Med', sans-serif;
+   src: url('/font/Inter-Medium.ttf');
+}
+@font-face {
+   font-family: 'Inter Bold', sans-serif;
+   src: url('/font/Inter-Bold.ttf');
+}
+@font-face {
+   font-family: 'Inter Semy-Bold', sans-serif;
+   src: url('/font/Inter-SemiBold.ttf');
+}
+@font-face {
+   font-family: 'Inter Black', sans-serif;
+   src: url('/font/Inter-Black.ttf');
+}
+@font-face {
+   font-family: 'Raleway Reg', sans-serif;
+   src: url('/font/Raleway-Regular.ttf');
+}
+@font-face {
+   font-family: 'Raleway Med', sans-serif;
+   src: url('/font/Raleway-Medium.ttf');
+}
+@font-face {
+   font-family: 'Raleway Simy-Bold', sans-serif;
+   src: url('/font/Raleway-SemiBold.ttf');
+}
+@font-face {
+   font-family: 'Raleway Black', sans-serif;
+   src: url('/font/Raleway-Black.ttf');
+}
