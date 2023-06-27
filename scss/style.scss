@@ -646,6 +646,9 @@ body {
 .items2 {
    flex-wrap: wrap;
    margin-bottom: 30px;
+   @media(max-width: 750px) {
+      margin-bottom: 0px;
+   }
 }
 
 .items01,
